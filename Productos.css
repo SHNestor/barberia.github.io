@@ -1,0 +1,95 @@
+body{
+    background-color: #FFFFFF;
+}
+header
+{
+    background-color: #CCCCCC;
+    padding: 20px 0px; /*Propiedad de espaciamiento externo, como una caja */
+}
+.bloqueUno
+{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav
+{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li
+{
+    display: inline; /*Esto permite que la lista solo oucpe el tañoo de sus caracteres */
+    margin: 0 0 0 15px; /*Esto define el margen del texto arriba, abajo, derecha, izquierda */
+}
+nav a
+{
+    text-transform: uppercase; /*Trans forma el texto en mayuscula */
+    color: #000000;
+    font-weight: bold; /*se usa en lugar de stron en html*/
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover  /*Esta etiqueta captura el evento del mause (posicion) */
+{
+    color: #c78c19;
+}
+.bloqueDos
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.bloqueDos li
+{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.bloqueDos li:hover
+{
+    border-color: #c78c19;
+}
+.bloqueDos li:active
+{
+    border-color: #088c19;
+}
+.bloqueDos h2
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.bloqueDos li:hover h2
+{
+    font-size: 40px;
+}
+.productos-Des
+{
+    font-size: 18px;
+}
+.productos-Pre
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer
+{
+    text-align: center;
+    background: url(Imgenes/bg.jpg);
+    padding: 40px;
+}
+.piedePagina
+{
+    color: #FFFFFF;
+    margin: 20px;
+}

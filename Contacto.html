@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>Contacto-Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Contacto.css">
+    </head>
+    <body>
+        <header>
+            <div class="bloqueUno">
+                <img src="Imgenes/logo.png" alt="El logo de la barberia Alura">
+                    <ul>
+                        <nav>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Productos.html">Productos</a></li>
+                            <li><a href="">Contacto</a></li>
+                        </nav>
+                    </ul>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nombreApellido">Nombre y Apellido</label>
+                <input type="text" id="nombreApellido" required>
+
+                <label for="correoElectronico">Correo Electronico</label>
+                <input type="email" id="correoElectronico" required placeholder="email@dominio.com">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" required placeholder="(XX) XXXX XXXX">
+
+                <label for="areaMensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="areaMensaje" required></textarea>
+
+                <fieldset class="Menu">
+                    <legend>Como le gustaria que lo contactaramos</legend>
+
+                    <label for="radio-email"><input type="radio" name="Contacto" id="radio-email" value="email">Email</label>
+    
+                    <label for="radio-telefono"><input type="radio" name="Contacto" id="radio-telefono" value="Telefono">Telefono</label>
+    
+                    <label for="radio-Whasap"><input type="radio" name="Contacto" id="radio-Whasap" value="Whasap" checked>Whasap</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Enque horario prefiere ser atendido</legend>
+                    <select name="" id="">
+                        <option value="">Mañana</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noche</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"> <input type="checkbox" checked>Le gustaria resivir novedades dela barberia Alura?</label>
+
+                <input type="submit" value="Enviar Formulario" class="enviar">
+            </form>
+            <table>
+                <thead>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+                <img src="Imgenes/logo-blanco.png" alt="El logo de la barberia Alura">
+                <p class="piedePagina">&copy Barberia Alura - 2020</p>
+        </footer>
+    </body>
+</html>
