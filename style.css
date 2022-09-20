@@ -11,12 +11,19 @@ body
 }
 .bloqueUno .imagenLogo{
     width: 50%;
-    height: auto;
     float: left;
+}
+.imagenLogo2{
+    width: 40%;
+    height: auto;
 }
 .bloqueUno .headerMenu{
     width: 50%;
-    float: left;
+    overflow: hidden;
+}
+nav{
+    position: absolute;
+    top: 110px;
 }
 nav li{
     display: inline;
@@ -50,6 +57,13 @@ nav a:hover{
 .bloqueDos .Principal{
     width: 100%;
 }
+.utensilios{
+    width: 10%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    margin: 20px;
+}
 .titulo2{
     text-align: center;
     font-size: 50px;
@@ -66,7 +80,6 @@ nav a:hover{
 }
 .bloqueDos .Diferenciales{
     width: 100%;
-    margin: 10px;
 }
 .titulo3{
     text-align: center;
@@ -74,7 +87,7 @@ nav a:hover{
     margin: 10px;
 }
 .Diferenciales .itemsDiferenciales{
-    width: 30%;
+    width: 40%;
     float: left;
     background-color: red;
     position: relative;
@@ -83,7 +96,7 @@ nav a:hover{
 }
 .items{
     font-size: 20px;
-    margin: 5px;
+    margin: 0 0 10px 0;
 }
 .fuerte3{
     font-family: cursive;
@@ -102,11 +115,15 @@ nav a:hover{
 .imagenDiferencial{
     margin: 0 20px;
 }
-footer
+.footer
 {
     text-align: center;
     background: url(Imgenes/bg.jpg);
     padding: 40px;
+}
+.footer .imagenPie{
+    width: 10%;
+    height: auto;
 }
 .piedePagina
 {
