@@ -86,10 +86,12 @@ nav a:hover{
     font-size: 40px;
     margin: 10px;
 }
+.mapa{
+    padding: 10px;
+}
 .Diferenciales .itemsDiferenciales{
     width: 40%;
     float: left;
-    background-color: red;
     position: relative;
     left: 10%;
     margin: 25px 0 0 0;
